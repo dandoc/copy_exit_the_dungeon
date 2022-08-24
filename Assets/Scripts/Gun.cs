@@ -32,6 +32,10 @@ public class Gun : MonoBehaviour
     private void Awake()
     {
         playerView = GetComponentInParent<PlayerView>();
+        if(playerView != null)
+        {
+            Debug.Log("loaded");
+        }
     }
 
     // Update is called once per frame
@@ -56,7 +60,7 @@ public class Gun : MonoBehaviour
     private void Shot()
     {
         fire_Pos = new Vector3(fireTransform.position.x, fireTransform.position.y, fireTransform.position.z);
-        
+
         Instantiate(gunData.bullet, fire_Pos, playerView.Gun_rotation);
 
         magAmmo--;
@@ -91,7 +95,8 @@ public class Gun : MonoBehaviour
         }
         
         magAmmo += ammoToFill;
-        ammoRemain -= ammoToFill;
+        //ammoRemain -= ammoToFill;
+        //무한대로 하려고 기존 코드에서 이것만 바꾸면 됨
 
         state = State.Ready;
     }

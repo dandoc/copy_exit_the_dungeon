@@ -57,26 +57,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\jumptest.cs" />
+    <Compile Include="Assets\Scripts\실패작\jumptest.cs" />
     <Compile Include="Assets\Scripts\실패작\RayCastunder.cs" />
     <Compile Include="Assets\Scripts\실패작\RayCastunder2.cs" />
     <Compile Include="Assets\Scripts\실패작\PlayerMovement1.cs" />
-    <Compile Include="Assets\Scripts\PlayerView.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerView.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerShooter.cs" />
+    <Compile Include="Assets\Scripts\IDamageable.cs" />
     <Compile Include="Assets\Scripts\floor.cs" />
     <Compile Include="Assets\Scripts\gunPivot.cs" />
-    <Compile Include="Assets\Scripts\PlayerInput2.cs" />
+    <Compile Include="Assets\Scripts\EnemyBullet.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerInput2.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerBullet.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\실패작\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\LivingEntity.cs" />
     <Compile Include="Assets\Scripts\실패작\PlayerInput1.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement3.cs" />
-    <Compile Include="Assets\Scripts\실패작\RayCastunder1.cs" />
-    <Compile Include="Assets\Scripts\실패작\PlayerMovement2.cs" />
-    <Compile Include="Assets\Scripts\실패작\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\aaaa.cs" />
-    <Compile Include="Assets\Scripts\GunData.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement3.cs" />
     <Compile Include="Assets\Scripts\Gun.cs" />
+    <Compile Include="Assets\Scripts\실패작\RayCastunder1.cs" />
     <Compile Include="Assets\Scripts\BulletData.cs" />
-    <Compile Include="Assets\Scripts\Bullet.cs" />
-    <Compile Include="Assets\Scripts\PlayerShooter.cs" />
+    <Compile Include="Assets\Scripts\실패작\PlayerMovement2.cs" />
+    <Compile Include="Assets\Scripts\GunData.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\실패작\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Enemy\base\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Enemy\base\EnemyView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fonts\License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
